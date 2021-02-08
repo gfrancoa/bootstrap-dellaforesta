@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Della Foresta-Ecommerce</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row justify-content-lg-between justify-content-center py-3 align-items-center">
+                <div class="col col-auto order-lg-1 order-2">
+
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Portafolio</a>
+                        </li>
+                    </ul>
+                
+                
+                
+                </div>
+                
+                <div class="col-12 col-lg col-auto order-lg-2 order-1 text-center">
+                    <h1><a href="#" class="text-dark website-title">Della Foresta</a></h1>
+                </div>
+
+                <div class="col col-auto order-lg-3 order-3">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Tienda</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            
+            </div>
+        </div>
+    </header>    
+    
+    <section class="main">
+        <div class="container">
+            <section class="row main-carousel">
+                <div class="col">
+                    <div id="carouselDestacado" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselDestacado" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselDestacado" data-slide-to="1"></li>
+                            <li data-target="#carouselDestacado" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img src="img/kiwi_carousel.jpg" alt="" class="d-block w-100">
+                                <div class="carousel-caption bg-gradient-success text-light d-none d-md-block">
+                                    <h5>Mermeladas de frutos exóticos</h5>
+                                    <p>Tenemos una variedad de mermeladas bajas en azúcar.
+                                        Cero remordimientos!
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/etiquetas2.jpg" alt="" class="d-block w-100">
+                                <div class="carousel-caption bg-gradient-success text-light d-none d-md-block">
+                                    <h5>Variedad de productos</h5>
+                                    <p>Mermeladas de pitahaya, kiwi o maracuyá. Escoge la tuya.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/frutas.jpg" alt="" class="d-block w-100">
+                                <div class="carousel-caption bg-gradient-success text-light d-none d-md-block">
+                                    <h5>Productos personalizados</h5>
+                                    <p>Convertimos la fruta que quieras en mermelada. <br>
+                                        Pregunta por nuestros productos personalizados.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a href="#carouselDestacado" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+
+                        <a href="#carouselDestacado" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="row products-masonry-container">
+                <div class="col">
+
+                    <div class="products-masonry-filter mt-4 mt-lg-5 mb-4 border-top border-bottom py-2">
+                        <ul class="nav nav-pills nav-fill">
+                            <li class="nav-item">
+                                <a href="#todos" class="nav-link active" data-toggle="tab">Todos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#temporada" class="nav-link" data-toggle="tab">De temporada</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#vendidas" class="nav-link" data-toggle="tab">Más vendidas</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#clasicas" class="nav-link" data-toggle="tab">Clásicas</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="products-masonry">
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="todos">
+                                <h3>Todos nuestros productos</h3>
+                                <div class="card-columns">
+                                    <div class="card">
+                                        <img src="img/kiwi3.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de kiwi 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/pitahaya_jam.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de pitahaya 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/maracuya_jam2.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de maracuyá 250 g</div>
+                                            <div class="card-text">$12</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/mermelada-800x495.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de frutos rojos 250 g</div>
+                                            <div class="card-text">$15</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/lulo2.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de lulo 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/pitahaya.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de pitahaya 100 g</div>
+                                            <div class="card-text">$6</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="https://i.ytimg.com/vi/KspOgWN8ypg/maxresdefault.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de granada 100 g</div>
+                                            <div class="card-text">$10</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="temporada">
+                                <h3>Conservas de temporada</h3>
+                                <div class="card-columns">
+                                    <div class="card">
+                                        <img src="img/kiwi3.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de kiwi 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/banner_vertical.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Uno de nuestros sabores preferidos 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="data:image/jpeg;base64,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" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de corozo 250 g</div>
+                                            <div class="card-text">$15</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="data:image/jpeg;base64,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" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de tamarindo 100 g</div>
+                                            <div class="card-text">$8</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="https://www.recetin.com/wp-content/uploads/2010/07/mermelada_sandia.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de sandía 250 g</div>
+                                            <div class="card-text">$12</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/pitahaya.png" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de pitahaya 90 g</div>
+                                            <div class="card-text">$6</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="https://olgasofiaperez.com/qa/wp-content/uploads/2009/11/Mermelada-de-uchuvas.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de uchuva 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="vendidas">
+                                <h3>Productos más populares</h3>
+                                <div class="card-columns">
+                                    <div class="card">
+                                        <img src="img/kiwi3.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de kiwi 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/pitahaya_jam2.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de pitahaya 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/pack3.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Pack x3 mermeladas 100g</div>
+                                            <div class="card-text">$15</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/etiquetas.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Stickers Della Foresta x20und</div>
+                                            <div class="card-text">$5</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/etiquetas2.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Pack x2 mermelada kiwi y pitahaya 250 g</div>
+                                            <div class="card-text">$27</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="img/maracuya-1und.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de maracuyá 100 g</div>
+                                            <div class="card-text">$5</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="https://i.ytimg.com/vi/KspOgWN8ypg/maxresdefault.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de granada 100 g</div>
+                                            <div class="card-text">$10</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            
+
+                            <div class="tab-pane fade" id="clasicas">
+                                <h3>Mmm... clásico</h3>
+                                <div class="card-columns">
+                                    <div class="card">
+                                        <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/A6341A6F-86D6-44F4-B9D6-6A696C3C94A2/Derivates/a1a77120-6b48-478a-868f-691107e62a19.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de fresa 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="https://www.selecciones.com.ar/storage/Article/mermelada-de-durazno-y-canela-942-mainImage-0.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de durazno 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="https://www.monsieur-cuisine.com/fileadmin/_processed_/8/9/csm_23070_Rezeptfoto_01_45bb78ce0c.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de frutos rojos 250 g</div>
+                                            <div class="card-text">$15</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="https://i.blogs.es/e2f9e9/mermeladademorasymanzana_1024_ma/450_1000.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de mora 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="https://www.hogarmania.com/archivos/201209/mermelada-de-manzana-xl-668x400x80xX.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de manzana 250 g</div>
+                                            <div class="card-text">$14</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <img src="https://t2.rg.ltmcdn.com/es/images/4/0/3/img_mermelada_de_naranja_sin_azucar_ni_edulcorante_62304_600_square.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">Mermelada de naranja 100 g</div>
+                                            <div class="card-text">$6</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <div class="call-to-action-container text-center border-top border-bottom mb-5 py-3">
+                        <p>Síguenos en Instagram para estar actualizado con las últimas novedades</p>
+                        <a href="https://www.instagram.com/della_foresta" class="btn btn-outline-primary font-weight-light text-uppercase">@Della_Foresta</a>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="row latest-news">
+                <div class="col-lg mb-3 mb-lg-0">
+                    <div class="featured-post h-100">
+                        <div id="featuredPostCarousel" class="carousel slide h-100" data-interval="false"> <!--data interval en falso para que no se mueva en forma automática-->
+                            <div class="carousel-inner h-100">
+
+                                <div class="carousel-item active h-100">
+                                    <div class="featured-post-inner h-100 d-flex align-items-end featured-post-1">
+                                        <div class="featured-post-info w-100">
+                                            <h4>Nuestra historia</h4>
+                                            <p>Todo empezó por un desayuno sin miel de maple ¿Quieres saber más? Empieza a leer</p>
+                                            <p class="post-meta d-flex justify-content-between">
+                                                <span>Por Gabriela Franco</span>
+                                                <span>12 de Enero - 2021</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item h-100">
+                                    <div class="featured-post-inner h-100 d-flex align-items-end featured-post-2">
+                                        <div class="featured-post-info w-100">
+                                            <h4>¿Por qué comer frutas y verduras es bueno para tí?</h4>
+                                            <p>Llevar estilos de vida saludable empieza por lo que comes.</p>
+                                            <p class="post-meta d-flex justify-content-between">
+                                                <span>Por Juan Pérez</span>
+                                                <span>15 de Enero - 2021</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <a href="#featuredPostCarousel" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+    
+                            <a href="#featuredPostCarousel" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg d-none d-sm-block"> <!--para ocultar la columna en celulares-->
+                    <div class="row post mb-3">
+                        <div class="col-sm-4">
+                            <img class="img-fluid" src="img/pitahaya.png" alt="">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <h4>La pitahaya y tu salud</h4>
+                            <p>La pitaya es un tesoro desde el punto de vista nutricional, contiene antioxidantes, mucílagos, 
+                                ácido ascórbico y fenoles.</p>
+                            <p class="post-meta d-flex justify-content-between">
+                                <span>Por Gabriela Franco</span>
+                                <span>12 de Junio - 2020</span>
+                            </p>
+  
+                        </div>
+                    </div>
+
+
+                    <div class="row post mb-3">
+                        <div class="col-sm-4">
+                            <img class="img-fluid" src="img/frutas.jpg" alt="">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <h4>En el desayuno...</h4>
+                            <p>Que no falten las manzanas, el plátano, la sandía...
+                                También son opciones las mandarinas, el kiwi, el melocotón y las fresas.</p>
+                            <p class="post-meta d-flex justify-content-between">
+                                <span>Por Gabriela Franco</span>
+                                <span>3 de Julio - 2020</span>
+                            </p>
+  
+                        </div>
+                    </div>
+
+
+
+                    <div class="row post">
+                        <div class="col-sm-4">
+                            <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/2/23/Apple_for_Health_-_Apple_with_Stethoscope_%2816348686815%29.jpg" alt="">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <h4>Una manzana al día mantiene al doctor en la lejanía</h4>
+                            <p>No olvides comerla todos los días!</p>
+                            <p class="post-meta d-flex justify-content-between">
+                                <span>Por Gabriela Franco</span>
+                                <span>12 de Junio - 2020</span>
+                            </p>
+  
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </div>
+
+        <div class="section contact bg-dark mt-5">
+            <div class="container">
+                <div class="row py-5 justify-content-center align-items-center">
+                    <div class="col col-auto mb-4 mb-md-0">
+                        <p class="text-light mb-0">¿Necesitas ayuda? Estamos aquí mismo</p>
+                    </div>
+
+                    <div class="col col-auto">
+                        <a href="https://wa.me/573057759208" class="btn btn-primary">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-primary">
+        <div class="container">
+            <div class="row justify-content-md-between align-items-center py-3">
+                <div class="col col-sm-12 col-md-4 text-sm-center text-md-left order-md-0 order-1 my-4 my-md-0">
+                    <p class="text-white mb-0  "><small class="text-center">&copy; Todos los derechos reservados</small></p>
+                </div>
+
+                <div class="col col-sm-12 col-md-4 text-center">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">Tienda</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col col-sm-12 col-md-4 text-center text-white order-2 order-md-0">
+                    <a href="#" class="text-white mr-1">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+
+                    <a href="#" class="text-white mr-1">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a href="#" class="text-white">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
